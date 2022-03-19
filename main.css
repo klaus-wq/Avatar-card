@@ -31,7 +31,7 @@ main {
     height: 106px;
     top: calc(50% - 96px/2 - 47px);
     position: absolute;
-    left: calc(50% - 96px/2);;
+    left: calc(50% - 96px/2);
     border: 5px solid #FFFFFF;
     border-radius: 100%;
     background-color: white;
