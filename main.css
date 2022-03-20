@@ -39,7 +39,7 @@ main {
 }
 
 .avatar__desc {
-    margin-top: 72px;
+    margin-top: 62px;
     height: 23px;
     display: inline-flex;
 }
@@ -129,5 +129,8 @@ main {
     }
     .avatar__img {
         top: calc(50% - 96px/2 - 64px);
+    }
+    .avatar__desc {
+        margin-top: 72px;
     }
 }
