@@ -27,20 +27,19 @@ main {
 }
 
 .avatar__img {
-    width: 106px;
-    height: 106px;
+    width: 96px;
+    height: 96px;
     top: calc(50% - 96px/2 - 47px);
     position: absolute;
     left: calc(50% - 96px/2);
-    border: 5px solid #FFFFFF;
+    outline: 5px solid #FFFFFF;
     border-radius: 100%;
     background-color: white;
     object-fit: cover;
 }
 
 .avatar__desc {
-    margin-top: 62px;
-    height: 23px;
+    margin-top: 68px;
     display: inline-flex;
 }
 
@@ -85,10 +84,11 @@ main {
 }
 
 .avatar__info {
-    margin: 24px 0 0;
+    margin: 20px 51px 24px 51px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 10px;
+    row-gap: 6px;
+    column-gap: 42px;
 }
 
 .avatar__bold {
@@ -130,7 +130,8 @@ main {
     .avatar__img {
         top: calc(50% - 96px/2 - 64px);
     }
-    .avatar__desc {
-        margin-top: 72px;
+
+    .avatar__info {
+        margin: 32px 51px 24px 32px;
     }
 }
